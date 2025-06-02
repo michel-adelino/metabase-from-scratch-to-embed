@@ -1,6 +1,6 @@
-# 📊 Metabase Self-Learning Project
+# 📊 Metabase Project
 
-This repository documents my journey in exploring **Metabase**, an open-source business intelligence and analytics platform. The project includes:
+This repository contains a professional implementation of **Metabase**, an open-source business intelligence and analytics platform. The project includes:
 
 - Connecting Metabase to a SQL Server instance (Xóm Data)
 - Role-based access control via Telegram Bot
@@ -28,7 +28,6 @@ docker run -d -p 3000:3000 --name metabase metabase/metabase
 ## 🖼️ Step-by-step Setup Guide
 
 1. **Requesting an account via Telegram Bot**  
-   ![](./images/s01_get_account.png)  
    > A custom Telegram Bot is used to generate an account creation request.
 
 2. **Receiving account credentials via Gmail**  
@@ -114,7 +113,7 @@ node metabase-embed.js
 ## 📁 Project Structure
 
 ```
-metabase-self-learning/
+metabase-project/
 ├── images/
 │   ├── s01_get_account.png
 │   ├── s02_receive_account.png
@@ -142,9 +141,3 @@ metabase-self-learning/
 - [Metabase Documentation](https://www.metabase.com/docs/)
 - [Telegram Bot API](https://core.telegram.org/bots/api)
 - [Express.js Guide](https://expressjs.com/)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
